@@ -66,7 +66,7 @@ export const ImgBg= styled.img`
 
 export const MoveCloud = keyframes`
     from{
-        transform: translate(-200px , 30px);
+        transform: translate(-50px , 100px);
 
     }
     to{
@@ -125,6 +125,17 @@ export const ShootingStar = keyframes`
 
     }
 `
+export const ShootingStar2 = keyframes`
+    from{
+        transform: translate(12000px , -2750px);
+
+    }
+    to{
+        transform: translate(0px , 0px);
+
+    }
+`
+
 
 
 
@@ -143,10 +154,7 @@ export const ImgBg2 =styled.img`
     animation-fill-mode: none;
     animation-play-state: running;
 
-    &:hover{
-        transform: scale(1.2);
-    }
-    
+   
 `
 export const ImgBg3 =styled.img`
     position:absolute;
@@ -205,6 +213,49 @@ export const ImgBg6 =styled.img`
     
     animation-name: ${ShootingStar};
     animation-duration: 8000ms;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+    
+    @media screen and (max-width:1000px){
+        top: 120px;
+        height:80%;
+        
+    }
+
+    @media screen and (max-width:800px){
+        top: 120px;
+        height:70%;
+        
+    }
+
+    @media screen and (max-width:600px){
+        top: 180px;
+        height:50%;
+        
+    }
+    @media screen and (max-width:400px){
+        top: 180px;
+        height:40%;
+        
+    }
+    
+`
+
+export const ImgBg8 =styled.img`
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: -500px;
+    top: 80px;
+    
+    animation-name: ${ShootingStar2};
+    animation-duration: 10000ms;
     animation-timing-function: ease-in;
     animation-delay: 0s;
     animation-iteration-count: infinite;

@@ -6,7 +6,7 @@
 .arrow{
     z-index: 100;
     position: absolute;
-    top: 50%;
+    top: 58%;
     left:50%;
     transform: translate(-50%,-50%);
 
@@ -76,7 +76,7 @@
     font-size:28px;
     font-weight: 600;
     text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
-    animation: MiddleSubTitle 2000ms ease 0s normal none;
+    animation: MiddleSubTitle 3000ms ease 0s normal none;
 
 }
 
@@ -87,8 +87,18 @@
     font-size: 52px;
     font-weight: 800;
     text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
-    animation: MiddleTitle 2000ms ease-out 0s normal none;
+    animation: MiddleTitle 3000ms ease-out 0s normal none;
     
+}
+
+.description{
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    animation: MiddleTitle 2000ms  0s normal none;
+
 }
 
 @keyframes MiddleTitle {

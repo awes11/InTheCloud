@@ -6,6 +6,7 @@ import bg4 from '../../images/HeroImage/bgcloud3.png'
 import bg5 from '../../images/HeroImage/bgcloud4.png'
 import bg7 from '../../images/HeroImage/bgcloud5.png'
 import bg6 from '../../images/HeroImage/shootingStar2.png'
+import bg8 from '../../images/HeroImage/shootingStar.png'
 
 
 
@@ -18,7 +19,7 @@ import '../HeroSection/Herocss.css'
 import { Link } from 'react-scroll';
 
 
-import { HeroContainer, HeroBg, ImgBg, ImgBg2, ImgBg3, ImgBg4,ImgBg5, ImgBg6 , ImgBg7} from './HeroElements'
+import { HeroContainer, HeroBg, ImgBg, ImgBg2, ImgBg3, ImgBg4,ImgBg5, ImgBg6 , ImgBg7, ImgBg8} from './HeroElements'
 
 
 
@@ -31,6 +32,7 @@ const HeroSection = () => {
                     
             <ImgBg  src={bg1} type='image/png' />
 
+            <ImgBg8 src={bg8} type='image/png' />
             <ImgBg6 src={bg6} type='image/png'/>
             <ImgBg7 src={bg7} type='image/png' />
 
@@ -57,6 +59,7 @@ const HeroSection = () => {
         <div className='Word'>
             <p > In The</p>
             <h1>Clouds</h1>
+            <div className="description">A "Legacy" Art Collection by @WGMIPsycho</div>
         </div>
         <div className="SocialIconWrap">
 
