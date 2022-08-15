@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Discord from '../components/Discord';
 import Footer from '../components/Footer';
-import FrontSection from '../components/FrontSection';
 
-// import HeroSection from '../components/HeroSection';
+
+import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjTwo} from '../components/InfoSection/data';
 import Navbar from '../components/Navbar';
@@ -24,8 +24,8 @@ const Home = () => {
     <>
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle} />
-        <FrontSection/>
-        {/* <HeroSection/>  */}
+       
+        <HeroSection/> 
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Discord/>

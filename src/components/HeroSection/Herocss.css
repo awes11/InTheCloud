@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;900&display=swap');
+
+
+
+.arrow{
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: scroll 2s infinite;
+}
+
+.arrow span:hover{
+    border-bottom: 8px solid #1E1E1E;
+    border-right: 8px solid #1E1E1E;
+    cursor: pointer;
+}
+
+.arrow span:nth-child(2){
+    animation-delay: -.2s;
+
+}
+
+.arrow span:nth-child(3){
+    animation-delay: -.4s;
+    
+}
+
+@keyframes scroll{
+    0%{
+        opacity:0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity:1;
+        
+    }
+    100%{
+        opacity:0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+.Word{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    
+    
+    z-index: 5;
+}
+
+.Word p{
+    
+    
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size:28px;
+    font-weight: 600;
+    text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
+    animation: MiddleSubTitle 2000ms ease 0s normal none;
+
+}
+
+.Word h1{
+    /* font-family: 'Silkscreen', cursive; */
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
+    animation: MiddleTitle 2000ms ease-out 0s normal none;
+    
+}
+
+@keyframes MiddleTitle {
+    0%{
+        opacity:0;
+        transform: translate(0px,-30px);
+    }
+    50%{
+        opacity:0.5;
+        
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px,0px);
+    }
+
+    
+}
+@keyframes MiddleSubTitle {
+    0%{
+        opacity:0;
+        transform: translate(0px,-40px);
+    }
+    50%{
+        opacity:0.4;
+        
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px,0px);
+    }
+
+    
+}
+
+.SocialIconWrap{
+    position: absolute;
+    top:94%;
+    left:85%;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    
+   
+    display: flex;
+    
+    
+}
+
+@media screen and (max-width: 820px) {
+
+    .SocialIconWrap {display: grid; top: 78%; left: 85%}
+    
+}
+
+
+
+.SocialIcon{
+    padding-left: 10px;
+    color: #fff;
+    transition: all 0.1s ;
+    opacity: 80%;
+}
+
+.SocialIcon:hover{
+    transform: scale(1.05);
+    transition: all 0.1s ;
+    opacity: 100%;
+   
+}
