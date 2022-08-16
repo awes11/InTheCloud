@@ -62,6 +62,7 @@
     transform: translate(-50%,-50%);
     text-align: center;
     justify-content: center;
+    cursor:default;
     
     
     z-index: 5;
@@ -89,9 +90,11 @@
     text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
     animation: MiddleTitle 3000ms ease-out 0s normal none;
     
+    
 }
 
 .description{
+    padding-top: 8px;
     font-family: 'Orbitron', sans-serif;
     color: #fff;
     font-size: 12px;

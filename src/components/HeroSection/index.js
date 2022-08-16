@@ -49,7 +49,7 @@ const HeroSection = () => {
 
         </HeroBg>
         
-        <Link to="about" smooth={true} duration={1000} spy={true} exact='true' offset={-60}>
+        <Link to="about" smooth={true} duration={1000} spy={true} exact='true' offset={-58}>
         <div className="arrow">  
           <span></span>
           <span></span>

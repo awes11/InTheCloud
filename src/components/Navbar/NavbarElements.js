@@ -105,6 +105,7 @@ export const NavLinks = styled(LinkS)`
     
     &:hover{
        font-size: 1.12rem;
+       color: #DCDCDC;
        transition: 0.2s all ease;
     }
 

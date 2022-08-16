@@ -117,7 +117,7 @@ export const MoveCloud5 = keyframes`
 
 export const ShootingStar = keyframes`
     from{
-        transform: translate(10000px , -1750px);
+        transform: translate(8000px , -1750px);
 
     }
     to{
@@ -127,7 +127,7 @@ export const ShootingStar = keyframes`
 `
 export const ShootingStar2 = keyframes`
     from{
-        transform: translate(12000px , -2750px);
+        transform: translate(10000px , -2750px);
 
     }
     to{
@@ -209,10 +209,10 @@ export const ImgBg6 =styled.img`
     width: 100%;
     height: 100%;
     left: -500px;
-    top: 80px;
+    top: 60px;
     
     animation-name: ${ShootingStar};
-    animation-duration: 8000ms;
+    animation-duration: 6000ms;
     animation-timing-function: ease-in;
     animation-delay: 0s;
     animation-iteration-count: infinite;
@@ -243,6 +243,9 @@ export const ImgBg6 =styled.img`
         top: 180px;
         height:40%;
         
+       
+
+        
     }
     
 `
@@ -255,7 +258,7 @@ export const ImgBg8 =styled.img`
     top: 80px;
     
     animation-name: ${ShootingStar2};
-    animation-duration: 10000ms;
+    animation-duration: 8000ms;
     animation-timing-function: ease-in;
     animation-delay: 0s;
     animation-iteration-count: infinite;
