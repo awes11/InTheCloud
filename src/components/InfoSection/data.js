@@ -25,9 +25,10 @@ export const homeObjTwo = {
     lightTextDesc: false,
     darkText:true,
     topLine: 'Roadmap', 
-    headline: 'What\'s beyond the Clouds?',
-    description: 'There are no promises on the future of the collection however the aim is to reward early supporters as much as possible',
-    
+    headline: 'Future of the Clouds',
+    description: 'The future of the Clouds contains no promises except vibes. Does this mean the end for Clouds? by no means. Its only just begun.',
+    description2: ' \'In The Clouds\' will be working in the web3 space focused on itself along with other projects.',
+    description3: '"As I go on, my main focus will always be to bring value back to Cloud holders in any way possible." - @WGMIPsycho',
     imgStart: true,
     img: require( '../../images/multiplecloud2.png'),
     alt: 'clouds',

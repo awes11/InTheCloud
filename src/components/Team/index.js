@@ -37,7 +37,7 @@ const Team = () => {
             <TeamCard data-aos="fade-right">
               
               <TeamH2>Why 'In The Clouds'?</TeamH2>
-              <TeamP>We want to reward our early supporters </TeamP>
+              <TeamP>In the Clouds is a "setting" for future things to come</TeamP>
             </TeamCard>
             <TeamCard data-aos="fade-left">
               

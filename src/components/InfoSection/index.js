@@ -15,6 +15,7 @@ import {
     Heading, 
     Subtitle, 
     Subtitle2,
+    Subtitle3,
     
     ImgWrap,
     Img ,
@@ -23,7 +24,7 @@ import {
 
 
 
-const InfoSection = ({lightBg,id,imgStart,topLine,lightText, headline, darkText, description,description2,  img, alt,
+const InfoSection = ({lightBg,id,imgStart,topLine,lightText, headline, darkText, description,description2,  img, alt, description3,
                        }) => {
 
             useEffect(()=> {
@@ -44,6 +45,8 @@ const InfoSection = ({lightBg,id,imgStart,topLine,lightText, headline, darkText,
                         <Heading data-aos="fade-up" lightText={lightText}>{headline}</Heading>
                         <Subtitle data-aos="fade-up" darkText={darkText}>{description}</Subtitle>
                         <Subtitle2 data-aos="fade-up" darkText={darkText}>{description2}</Subtitle2>
+                        <Subtitle3 data-aos="fade-up" darkText={darkText}>{description3}</Subtitle3>
+                        
                         
                         
                     </TextWrapper>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const InfoContainer = styled.div`
 
     color: #fff;
@@ -45,10 +46,6 @@ export const Column1 =styled.div`
     padding: 0x 15px;
     grid-area: col1;
    
-    
-    
-
-
 `
 
 export const Column2 = styled.div`
@@ -62,8 +59,6 @@ export const TextWrapper = styled.div`
     max-width: 600px;
     padding-top: 0;
     padding-bottom: 60px;
-
-    
 
 `
 export const TopLine = styled.p`
@@ -99,6 +94,8 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height:24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff' )};
+    letter-spacing: 1px;
+    justify-content:center;
 
 `;
 
@@ -108,6 +105,20 @@ export const Subtitle2 = styled.p`
     font-size: 18px;
     line-height:24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff' )};
+    letter-spacing: 1px;
+    justify-content:center;
+    
+
+`;
+
+export const Subtitle3 = styled.p`
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height:24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff' )};
+    letter-spacing: 1px;
+    justify-content:center;
 
 `;
 
