@@ -1,7 +1,7 @@
 import React , {useEffect, useState} from 'react'
 import {FaBars} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import logo from '../../images/cloudlogo.png'
+import logo from '../../images/cloudlogo.webp'
 
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 // import{NavBtn, NavBtnLink} from './NavbarElements'

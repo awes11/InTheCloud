@@ -1,18 +1,18 @@
 import React from 'react'
-import bg1 from '../../images/HeroImage/bgcloud0.png'
-import bg2 from '../../images/HeroImage/bgcloud1.png'
-import bg3 from '../../images/HeroImage/bgcloud2.png'
-import bg4 from '../../images/HeroImage/bgcloud3.png'
-import bg5 from '../../images/HeroImage/bgcloud4.png'
-import bg7 from '../../images/HeroImage/bgcloud5.png'
+import bg1 from '../../images/HeroImage/bgcloud0.webp'
+import bg2 from '../../images/HeroImage/bgcloud1.webp'
+import bg3 from '../../images/HeroImage/bgcloud2.webp'
+import bg4 from '../../images/HeroImage/bgcloud3.webp'
+import bg5 from '../../images/HeroImage/bgcloud4.webp'
+import bg7 from '../../images/HeroImage/bgcloud5.webp'
 import bg6 from '../../images/HeroImage/shootingStar2.png'
 import bg8 from '../../images/HeroImage/shootingStar.png'
 
 
 
-import OSLogo from '../../images/OpenseaIcon.png';
-import TLogo from '../../images/TwitterIcon.png';
-import DLogo from '../../images/DiscordIcon.png';
+import OSLogo from '../../images/OpenseaIcon.webp';
+import TLogo from '../../images/TwitterIcon.webp';
+import DLogo from '../../images/DiscordIcon.webp';
 
 import '../HeroSection/Herocss.css'
 

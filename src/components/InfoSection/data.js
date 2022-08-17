@@ -12,7 +12,7 @@ export const homeObjOne = {
     
     
     imgStart: false,
-    img: require( '../../images/cloudmain.png'),
+    img: require( '../../images/cloudmain.webp'),
     alt: 'logo',
    
     darkText: false
@@ -30,7 +30,7 @@ export const homeObjTwo = {
     description2: ' \'In The Clouds\' will be working in the web3 space focused on itself along with other projects.',
     description3: '"As I go on, my main focus will always be to bring value back to Cloud holders in any way possible." - @WGMIPsycho',
     imgStart: true,
-    img: require( '../../images/multiplecloud2.png'),
+    img: require( '../../images/multiplecloud2.webp'),
     alt: 'clouds',
   
     

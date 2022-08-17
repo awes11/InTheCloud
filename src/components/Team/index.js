@@ -9,13 +9,13 @@ import React, { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-import img1 from '../../images/cloud/pixil-layer-13.1.png'
-import img2 from '../../images/cloud/pixil-layer-15.1.png'
-import img3 from '../../images/cloud/pixil-layer-12.1.png'
-import img4 from '../../images/cloud/pixil-layer-14.1.png'
-import img5 from '../../images/cloud/pixil-layer-16.1.png'
-import img6 from '../../images/cloud/pixil-layer-6.1.png'
-import img7 from '../../images/cloud/pixil-layer-13.1.png'
+import img1 from '../../images/cloud/pixil-layer-13.1.webp'
+import img2 from '../../images/cloud/pixil-layer-15.1.webp'
+import img3 from '../../images/cloud/pixil-layer-12.1.webp'
+import img4 from '../../images/cloud/pixil-layer-14.1.webp'
+import img5 from '../../images/cloud/pixil-layer-16.1.webp'
+import img6 from '../../images/cloud/pixil-layer-6.1.webp'
+import img7 from '../../images/cloud/pixil-layer-13.1.webp'
 
 import { TeamContainer, TeamH1, TeamWrapper, TeamCard, TeamH2, TeamP, ImgWrap, Img} from './TeamElements'
 
