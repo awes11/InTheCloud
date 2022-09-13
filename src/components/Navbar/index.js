@@ -61,7 +61,7 @@ const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinkR to="/wallet"
                         smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >Check Wallet</NavLinkR>
+                        >Check WhiteList</NavLinkR>
                     </NavItem>
                 </NavMenu>
                 {/* <NavBtn>

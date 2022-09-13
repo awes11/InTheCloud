@@ -22,7 +22,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 </SidebarLink>
                 <SidebarLinkR to="/wallet"
                         smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >Check Wallet</SidebarLinkR>
+                        >Check WhiteList</SidebarLinkR>
                     
 
             </SidebarMenu>
