@@ -154,11 +154,11 @@ export const Img = styled.img`
     margin-right: 16px;
     transition: all 0.2s ease;
 
-    &:hover{
+    /* &:hover{
         width:205px;
         height:205px;
         
-    }
+    } */
     
     
 `

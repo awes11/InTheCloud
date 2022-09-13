@@ -3,10 +3,10 @@ import {FaBars} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import logo from '../../images/cloudlogo.webp'
 
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavLinkR} from './NavbarElements'
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 // import{NavBtn, NavBtnLink} from './NavbarElements'
 
-const Navbar = ({toggle}) => {
+const NavbarWallet = ({toggle}) => {
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -28,13 +28,11 @@ const Navbar = ({toggle}) => {
         scroll.scrollToTop();
     }
 
-  
-
   return (
     <>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to='/' onClick={toggleHome}>
+                <NavLogo to='/' onClick={toggleHome} >
                     
                       
                     CL<img src={logo} alt="logo" width="50px" />UD
@@ -44,25 +42,9 @@ const Navbar = ({toggle}) => {
                 </MobileIcon >
                 <NavMenu>
                     <NavItem >
-                        <NavLinks to="about" 
-                        smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >About</NavLinks>
+                        <NavLinks to="/" >Home</NavLinks>
                     </NavItem>
-                    <NavItem>
-                        <NavLinks to="roadmap"
-                        smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >Roadmap</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="team"
-                        smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >FAQ</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinkR to="/wallet"
-                        smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
-                        >Check Wallet</NavLinkR>
-                    </NavItem>
+                   
                 </NavMenu>
                 {/* <NavBtn>
                     <NavBtnLink to="/signin">Sign In</NavBtnLink>
@@ -73,4 +55,4 @@ const Navbar = ({toggle}) => {
   )
 }
 
-export default Navbar;
+export default NavbarWallet;

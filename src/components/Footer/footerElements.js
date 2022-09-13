@@ -4,6 +4,7 @@ import {Link as LinkS} from 'react-scroll'
 
 export const FooterContainer = styled.footer`
     background-color: #000;
+    overflow-x:hidden;
 
 `
 
@@ -15,6 +16,7 @@ export const FooterWrap = styled.div`
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
+    overflow:hidden;
 `
 
 export const FooterLinksContainer = styled.div`

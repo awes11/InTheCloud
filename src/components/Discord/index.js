@@ -10,6 +10,7 @@ const DiscordContainer = styled.div`
     color: #fff;
     /* background: #c5d7e8; */
     background-image: linear-gradient(#DBE2E9, #bfcddb);
+    overflow:hidden;
 
     
    
@@ -26,6 +27,7 @@ const DiscordWrapper = styled.div`
     
     justify-content: center;
     align-items:center;
+    overflow:hidden;
 
 
     border-radius: 2px;

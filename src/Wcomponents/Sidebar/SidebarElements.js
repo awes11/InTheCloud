@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link as LinkS} from 'react-scroll';
+// import {Link as LinkS} from 'react-scroll';
 import {Link as LinkR} from 'react-router-dom';
 
 
@@ -63,7 +63,7 @@ export const SidebarMenu = styled.ul`
     } 
 `;
 
-export const SidebarLink = styled(LinkS)`
+export const SidebarLink = styled(LinkR)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,25 +81,6 @@ export const SidebarLink = styled(LinkS)`
     }
 
 `
-export const SidebarLinkR = styled(LinkR)`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    list-style: none;
-    transition: 0.2s ease-in-out;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-
-    &:hover {
-        color: #A7C7E7;
-        transition: 0.2s ease-in-out;
-    }
-
-`
-
 export const SideBtnWrap = styled.div`
     display:flex;
     justify-content: center;

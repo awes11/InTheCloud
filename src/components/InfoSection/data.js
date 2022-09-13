@@ -12,7 +12,7 @@ export const homeObjOne = {
     
     
     imgStart: false,
-    img: require( '../../images/cloudmain.webp'),
+    img: require( '../../images/MainCloud.png'),
     alt: 'logo',
    
     darkText: false
