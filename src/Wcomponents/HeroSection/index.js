@@ -127,16 +127,16 @@ const HeroSectionWallet = () => {
               (
               message.map((wallet) => <div   key={wallet.key} > {wallet.Name} </div>) 
               )  
-              : null}
+              : <div></div>}
               {message.length > 0 ? 
               (
-              < >Your Wallet address below is on the Whitelist</> 
+              < >Your Wallet Address Below is on The Whitelist</> 
               )  
               : null}
               {message.length > 0 ? (
               message.map((wallet) => <div  key={wallet.key} > {wallet.EthAddress} </div>) 
               
-            ) : <div >this wallet address is not on the whitelist</div>}
+            ) : <div >This Wallet Address is Not on The Whitelist</div>}
               
            </div>
            
