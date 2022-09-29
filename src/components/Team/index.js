@@ -52,7 +52,7 @@ const Team = () => {
             <TeamCard data-aos="fade-left">
               
               <TeamH2>Wen launch?</TeamH2>
-              <TeamP>TBA - Looking to be approximately late august.</TeamP>
+              <TeamP>TBA - Around October </TeamP>
             </TeamCard>
           
           </TeamWrapper>
