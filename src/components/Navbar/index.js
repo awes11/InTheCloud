@@ -63,6 +63,7 @@ const Navbar = ({toggle}) => {
                         smooth={true} duration={1000} spy={true} exact='true' offset={-58} 
                         >Check WhiteList</NavLinkR>
                     </NavItem>
+                    
                 </NavMenu>
                 {/* <NavBtn>
                     <NavBtnLink to="/signin">Sign In</NavBtnLink>

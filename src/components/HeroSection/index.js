@@ -1,26 +1,28 @@
 import React from 'react'
-import bg1 from '../../images/HeroImage/bgcloud0.webp'
-import bg2 from '../../images/HeroImage/bgcloud1.webp'
-import bg3 from '../../images/HeroImage/bgcloud2.webp'
-import bg4 from '../../images/HeroImage/bgcloud3.webp'
-import bg5 from '../../images/HeroImage/bgcloud4.webp'
-import bg7 from '../../images/HeroImage/bgcloud5.webp'
+// import bg1 from '../../images/HeroImage/bgcloud0.webp'
+// import bg2 from '../../images/HeroImage/bgcloud1.webp'
+// import bg3 from '../../images/HeroImage/bgcloud2.webp'
+// import bg4 from '../../images/HeroImage/bgcloud3.webp'
+// import bg5 from '../../images/HeroImage/bgcloud4.webp'
+// import bg7 from '../../images/HeroImage/bgcloud5.webp'
 import bg6 from '../../images/HeroImage/shootingStar2.png'
 import bg8 from '../../images/HeroImage/shootingStar.png'
 
+import cover from '../../images/HeroCoverBG.jpg'
 
 
-import OSLogo from '../../images/OpenseaIcon.webp';
-import TLogo from '../../images/TwitterIcon.webp';
-import DLogo from '../../images/DiscordIcon.webp';
+
+import OSLogo from '../../images/OpenseaIconBlack.png';
+import TLogo from '../../images/TwitterIconBlack.png';
+import DLogo from '../../images/DiscordIconBlack.png';
 
 import '../HeroSection/Herocss.css'
 
 import { Link } from 'react-scroll';
 
 
-import { HeroContainer, HeroBg, ImgBg, ImgBg2, ImgBg3, ImgBg4,ImgBg5, ImgBg6 , ImgBg7, ImgBg8} from './HeroElements'
-
+import { HeroContainer, HeroBg, ImgBg,  ImgBg6 ,  ImgBg8} from './HeroElements'
+// import { ImgBg2, ImgBg3, ImgBg4,ImgBg5,ImgBg7 } from '../../Wcomponents/HeroSection/HeroElements';
 
 
 
@@ -29,20 +31,23 @@ const HeroSection = () => {
     <HeroContainer>
         <HeroBg>
 
-                    
+            <ImgBg src={cover} type='image/jpg' />
+
+{/*                     
             <ImgBg  src={bg1} type='image/png' />
+            */}
 
             <ImgBg8 src={bg8} type='image/png' />
             <ImgBg6 src={bg6} type='image/png'/>
-            <ImgBg7 src={bg7} type='image/png' />
+            {/* <ImgBg7 src={bg7} type='image/png' />
 
             <ImgBg2 src={bg2} type='image/png'/>
             <ImgBg3 src={bg3} type='image/png'/>
 
             
             <ImgBg5 src={bg5} type='image/png' />
-            <ImgBg4 src={bg4} type='image/png' />
-            
+            <ImgBg4 src={bg4} type='image/png' /> */}
+             
             
             
     

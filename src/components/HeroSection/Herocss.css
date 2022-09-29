@@ -72,11 +72,11 @@
     
     
     font-size: 18px;
-    color: #fff;
+    color: 	#202020;
     font-family: 'Orbitron', sans-serif;
     font-size:28px;
     font-weight: 600;
-    text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
+    text-shadow: 0 0 2px #A7C7E7, 0 0 2px #4682B4;
     animation: MiddleSubTitle 3000ms ease 0s normal none;
 
 }
@@ -84,10 +84,10 @@
 .Word h1{
     /* font-family: 'Silkscreen', cursive; */
     font-family: 'Orbitron', sans-serif;
-    color: #fff;
+    color: 	#202020;
     font-size: 52px;
     font-weight: 800;
-    text-shadow: 0 0 2px #CFCFC4, 0 0 2px #8F8F88;
+    text-shadow: 0 0 2px #A7C7E7, 0 0 2px #4682B4;
     animation: MiddleTitle 3000ms ease-out 0s normal none;
     
     
@@ -96,8 +96,9 @@
 .description{
     padding-top: 8px;
     font-family: 'Orbitron', sans-serif;
-    color: #fff;
-    font-size: 12px;
+    text-shadow: 0 0 2px #A7C7E7, 0 0 2px #4682B4;
+    color: 	#202020;
+    font-size: 14px;
     font-weight: 100;
     letter-spacing: 3px;
     animation: MiddleTitle 2000ms  0s normal none;
