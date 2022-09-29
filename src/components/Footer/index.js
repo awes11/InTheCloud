@@ -8,7 +8,7 @@ SocialMedia,SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconL
 import { animateScroll as scroll } from 'react-scroll';
 import {FaTwitter , FaDiscord} from 'react-icons/fa';
 import logo from '../../images/cloudlogo.webp'
-import OSLogo from '../../images/OpenseaIconBlack.webp';
+import OSLogo from '../../images/OpenseaIcon.webp';
 
 
 const Footer = () => {

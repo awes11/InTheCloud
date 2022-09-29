@@ -65,57 +65,6 @@ export const ImgBg= styled.img`
 
 `
 
-export const MoveCloud = keyframes`
-    from{
-        transform: translate(-50px , 100px);
-
-    }
-    to{
-        transform: translate(0px , 0px);
-
-    }
-`
-
-export const MoveCloud2 = keyframes`
-    from{
-        transform: translate(-100px , 0px);
-    }
-    to{
-        transform: translate(0px , 0px);
-    }
-`
-
-export const MoveCloud3 = keyframes`
-    from{
-        transform: translate(80px , 20px);
-
-    }
-    to{
-        transform: translate(0px , 0px);
-
-    }
-`
-export const MoveCloud4 = keyframes`
-    from{
-        transform: translate(50px , 0px);
-
-    }
-    to{
-        transform: translate(0px , 0px);
-
-    }
-`
-export const MoveCloud5 = keyframes`
-    from{
-        transform: translate(100px , 100px);
-
-    }
-    to{
-        transform: translate(0px , 0px);
-
-    }
-`
-
 export const ShootingStar = keyframes`
     from{
         transform: translate(8000px , -1750px);
@@ -140,71 +89,7 @@ export const ShootingStar2 = keyframes`
 
 
 
-export const ImgBg2 =styled.img`
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    animation-name: ${MoveCloud};
-    animation-duration: 5000ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
 
-   
-`
-export const ImgBg3 =styled.img`
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    animation-name: ${MoveCloud2};
-    animation-duration: 5000ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    
-`
-export const ImgBg5 =styled.img`
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    animation-name: ${MoveCloud3};
-    animation-duration: 5000ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    
-`
-export const ImgBg4 =styled.img`
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    animation-name: ${MoveCloud4};
-    animation-duration: 5000ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    
-`
 export const ImgBg6 =styled.img`
     position:absolute;
     width: 100%;
@@ -294,19 +179,3 @@ export const ImgBg8 =styled.img`
     
 `
 
-export const ImgBg7 =styled.img`
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    -o-object-fit:cover;
-    object-fit:cover;
-    animation-name: ${MoveCloud5};
-    animation-duration: 5000ms;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    
-`
