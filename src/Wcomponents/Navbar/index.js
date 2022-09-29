@@ -11,7 +11,7 @@ const NavbarWallet = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)
 
     const changeNav = () => {
-        if(window.scrollY >= 580){
+        if(window.scrollY >= 10){
             setScrollNav(true)
         } else {
             setScrollNav(false)

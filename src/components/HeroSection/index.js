@@ -8,13 +8,13 @@ import React from 'react'
 import bg6 from '../../images/HeroImage/shootingStar2.png'
 import bg8 from '../../images/HeroImage/shootingStar.png'
 
-import cover from '../../images/HeroCoverBG.jpg'
+import cover from '../../images/HeroCoverBG.webp'
 
 
 
-import OSLogo from '../../images/OpenseaIconBlack.png';
-import TLogo from '../../images/TwitterIconBlack.png';
-import DLogo from '../../images/DiscordIconBlack.png';
+import OSLogo from '../../images/OpenseaIconBlack.webp';
+import TLogo from '../../images/TwitterIconBlack.webp';
+import DLogo from '../../images/DiscordIconBlack.webp';
 
 import '../HeroSection/Herocss.css'
 
