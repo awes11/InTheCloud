@@ -52,12 +52,28 @@ const Footer = () => {
                         <FooterLinkTitle>Team social</FooterLinkTitle>
                             <FooterLink href="//www.twitter.com/WGMIPsycho" target="_blank" aria-label="Twitter"> @WGMIPsycho</FooterLink>
                             <FooterLink href="//www.twitter.com/awes_eth" target="_blank" aria-label="Twitter"> @awes_eth</FooterLink>
+                            <FooterLink href="/" target="_blank" aria-label="Twitter"> ...</FooterLink>
+                            
+                    </FooterLinkItems>
+
+                    <FooterLinksWrapper>
+                    <FooterLinkItems>
+                        <FooterLinkTitle>Team Email</FooterLinkTitle>
+                            <FooterLink href="mailto:petervuaus@gmail.com" target="_blank" aria-label="Twitter"> Psycho</FooterLink>
+                            <FooterLink href="mailto:awes.pro11@gmail.com" target="_blank" aria-label="Twitter"> awes</FooterLink>
                             
                     </FooterLinkItems>
 
                     
 
                 </FooterLinksWrapper>
+
+                </FooterLinksWrapper>
+                {/* <FooterLinksWrapper>
+                    X
+                    
+
+                </FooterLinksWrapper> */}
 
 
             </FooterLinksContainer>
