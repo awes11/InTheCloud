@@ -18,6 +18,8 @@ import { Link } from 'react-scroll';
 
 import { HeroContainer, HeroBg, ImgBg,  ImgBg6 ,  ImgBg8} from './HeroElements'
 
+import {ButtonMint} from '../../components/ButtonElement'
+
 
 
 
@@ -50,7 +52,10 @@ const HeroSection = () => {
             <p > In The</p>
             <h1>Clouds</h1>
             <div className="description">A "Legacy" Art Collection by @WGMIPsycho</div>
+            <ButtonMint href="https://www.inthecloudsmint.online/" target="_blank" aria-label="Mint Page" >MINT</ButtonMint>
+            
         </div>
+        
         <div className="SocialIconWrap">
 
         <div className="SocialIcon">
