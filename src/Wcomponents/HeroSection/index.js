@@ -130,7 +130,7 @@ const HeroSectionWallet = () => {
         <div className="SocialIconWrap2">
 
         <div className="SocialIcon2">
-        <a href="//www.opensea.io" target="_blank" aria-label="OpenSea" rel="noreferrer" >
+        <a href="https://opensea.io/collection/inthecloudsbypsycho" target="_blank" aria-label="OpenSea" rel="noreferrer" >
           <img src={OSLogo} alt="openseaLogo" width="30px" />
           </a>
         </div>

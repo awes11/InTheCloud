@@ -92,7 +92,7 @@ const Footer = () => {
                         <SocialIconLink href="//www.discord.com/invite/YZwQXbHksD" target="_blank" aria-label="Discord" >
                             <FaDiscord/>
                         </SocialIconLink>
-                        <SocialIconLink href="//www.opensea.io" target="_blank" aria-label="Discord" >
+                        <SocialIconLink href="https://opensea.io/collection/inthecloudsbypsycho" target="_blank" aria-label="Discord" >
                         <img src={OSLogo} alt="openseaLogo" width="25px" />
                         </SocialIconLink>
                     </SocialIcons>

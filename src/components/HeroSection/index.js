@@ -54,7 +54,7 @@ const HeroSection = () => {
         <div className="SocialIconWrap">
 
         <div className="SocialIcon">
-        <a href="//www.opensea.io" target="_blank" aria-label="OpenSea" rel="noreferrer" >
+        <a href="https://opensea.io/collection/inthecloudsbypsycho" target="_blank" aria-label="OpenSea" rel="noreferrer" >
           <img src={OSLogo} alt="openseaLogo" width="30px" />
           </a>
         </div>
